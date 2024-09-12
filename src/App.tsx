@@ -17,7 +17,7 @@ function App() {
             name: "U2U Wallet",
             imageUrl: "https://wallet.uniultra.xyz/assets/images/logo.png",
             aboutUrl: "https://wallet.uniultra.xyz/",
-            universalLink: "https://wallet.uniultra.xyz/",
+            universalLink: "https://wallet.uniultra.xyz",
             bridgeUrl: "https://ton-bridge.uniultra.xyz/bridge",
             platforms: ["ios", "android", "chrome"]
           },
