@@ -13,13 +13,15 @@ function App() {
       walletsListConfiguration={{
         includeWallets: [
           {
-            appName: "u2uwallet",
+            appName: "u2uWallet",
             name: "U2U Wallet",
-            imageUrl: "https://wallet.uniultra.xyz/assets/images/logo.png",
-            aboutUrl: "https://wallet.uniultra.xyz/",
-            universalLink: "https://wallet.uniultra.xyz",
+            imageUrl: "https://u2-images.s3.ap-southeast-1.amazonaws.com/hdw/logo.jpg",
+            aboutUrl: "https://u2u.xyz/ecosystem",
+            deepLink: "u2wallet-tc://",
+            universalLink: "https://u2u-wallet-app.uniultra.xyz/download",
             bridgeUrl: "https://ton-bridge.uniultra.xyz/bridge",
-            platforms: ["ios", "android", "chrome"]
+            jsBridgeKey: "u2uWallet",
+            platforms: ["ios", "android"]
           },
           {
             appName: "tonwallet",
