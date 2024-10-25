@@ -4,6 +4,7 @@ import {THEME, TonConnectUIProvider} from "@tonconnect/ui-react";
 import {Footer} from "./components/Footer/Footer";
 import {Header} from "./components/Header/Header";
 import {TxForm} from "./components/TxForm/TxForm";
+import { TonProofDemo } from './components/TonProofDemo/TonProofDemo';
 
 function App() {
   return (
@@ -129,7 +130,7 @@ function App() {
       <div className="app">
         <Header/>
         <TxForm/>
-        {/*<TonProofDemo />*/}
+        <TonProofDemo />
         <Footer/>
       </div>
     </TonConnectUIProvider>
