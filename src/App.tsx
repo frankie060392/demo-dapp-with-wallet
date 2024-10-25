@@ -19,7 +19,7 @@ function App() {
             imageUrl: "https://u2-images.s3.ap-southeast-1.amazonaws.com/hdw/logo.jpg",
             aboutUrl: "https://u2u.xyz/ecosystem",
             deepLink: "u2wallet-tc://",
-            universalLink: "https://u2u-wallet-app.uniultra.xyz/download",
+            universalLink: "https://u2u-wallet-app.uniultra.xyz/ton-connect",
             bridgeUrl: "https://ton-bridge.uniultra.xyz/bridge",
             jsBridgeKey: "u2uWallet",
             platforms: ["ios", "android"]
